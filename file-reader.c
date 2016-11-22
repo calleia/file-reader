@@ -1,30 +1,3 @@
-/*
-#include <stdio.h>
-
-int main() {
-  FILE *inputFile;
-  inputFile = fopen("input.txt","r");
-
-  if (inputFile == NULL) {
-    fprintf(stderr, "An error occurred, check if the input file exists.\n");
-
-    return 0;
-  }
-
-  fprintf(stdout, "Works fine. ;)\n");
-  fclose(inputFile);
-
-  return 0;
-}
-*/
-
-/*
-OBJETIVO:
-
-função para ler arquivo que retorna um pointeiro para o conteúdo da memória.
-função para grava um arquivo que recebe como parâmetro o ponteito criado pela função de leitura.
-*/
-
 /* fread example: read an entire file */
 #include <stdio.h>
 #include <stdlib.h>
